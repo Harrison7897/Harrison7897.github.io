@@ -1,0 +1,106 @@
+
+		body {
+			background: tan;
+			font-family: cursive;
+			text-align: center;
+			margin: auto;
+		}
+
+		h1 {
+			font-size: clamp(2rem, 5vw, 4.5rem);
+        	color: lightyellow;
+        	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        	margin: 0;
+        	font-family: cursive;
+		}
+
+		a {
+			color: black;
+			font-size: 1.2em;
+			text-decoration: none;
+			padding: 1em;
+			margin: 1em;
+			font-family: cursive;
+		}
+
+		a:hover {
+			color: white;
+		}
+
+		@media (max-width: 600px) {
+			.box {
+  				display: flex;
+  				flex-direction: column;
+  				justify-content: center;
+  				align-items: center;
+			}
+			.header{
+  				display: flex;
+  				flex-direction: column;
+  				justify-content: center;
+  				align-items: center;
+			}
+
+
+			
+		}
+
+		@media (min-width: 601px) {
+			.box {
+  				display: flex;
+  				flex-direction: row;
+  				justify-content: center;
+  				align-items: center;
+			}
+		}	
+
+
+	nav {
+        background: #2a9460; 
+        padding: 1rem; 
+        text-align: center; 
+        font-family: cursive;
+        font-size: clamp(1rem, 2vw, 3rem)
+    }
+
+    .hero {
+        min-height: 60vh;
+        background: url("img/mylogo.jpg") no-repeat center;
+        background-size: cover; 
+    }
+
+    .hero1 {
+        min-height: 50vh;
+        background: url("img/ourbook.jpg") no-repeat center;
+        background-size: cover; 
+    }
+
+    .hero2 {
+        min-height: 50vh;
+        background: url("img/ourplant.jpg") no-repeat center;
+        background-size: cover; 
+    }
+ img {
+        max-height: 50vh;
+        max-width: 50vh;
+    }
+
+.intro {
+		max-width: 80%;
+        margin: 3rem auto; 
+        padding: 0 1.5rem; 
+        font-size: clamp(1rem, 1.2vw, 1.25rem); 
+        text-align: justify; 
+        font-family: cursive;
+    }
+
+.section {  
+        background: #2a9460;
+        padding: 1.5rem;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        text-align: center; 
+        font-family:cursive;
+    }
+
+	
